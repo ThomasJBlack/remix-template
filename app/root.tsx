@@ -4,24 +4,17 @@ import {
   Meta,
   Outlet,
   Scripts,
-  ScrollRestoration, useRouteError
+  ScrollRestoration,
+  useRouteError,
 } from "@remix-run/react";
 import { json, type LoaderFunction } from "@remix-run/node";
 import "styles/index.css";
 
 export const loader: LoaderFunction = async () => {
-  // const url = new URL(request.url);
-  // const { someParam } = params;
-
-  // const redirects: Record<string, string> = {};
-
-
   return json({ ok: true });
 };
 
 export default function App() {
-  // const data = useLoaderData<typeof loader>();
-
   return (
     <html lang="en">
       <head>
