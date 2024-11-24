@@ -1,5 +1,4 @@
 import {
-  Button,
   Link as RadixLink,
   LinkProps as RadixLinkProps,
 } from "@radix-ui/themes";
@@ -39,7 +38,7 @@ export function NavLink({ to, children }: RadixLinkProps & RemixNavLinkProps) {
   );
 }
 
-// We don't tap into the radix theme if we do it this way.
+// We don't tap into the radix theme if we do it this way. :sad-panda:
 // export function NavLink({ to, children }: RadixLinkProps & RemixNavLinkProps) {
 //   return (
 //     <RemixNavLink

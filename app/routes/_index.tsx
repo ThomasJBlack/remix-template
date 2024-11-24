@@ -1,4 +1,4 @@
-import { Heading, ThemePanel } from "@radix-ui/themes";
+import { Heading } from "@radix-ui/themes";
 import { type MetaFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = () => {

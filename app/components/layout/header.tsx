@@ -1,4 +1,4 @@
-import { Container, Flex, IconButton } from "@radix-ui/themes";
+import { Flex, IconButton } from "@radix-ui/themes";
 import { Link, NavLink } from "../link";
 import { HomeIcon } from "@radix-ui/react-icons";
 import { Link as RemixLink } from "@remix-run/react";

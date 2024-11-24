@@ -1,4 +1,4 @@
-import { Container, ThemePanel } from "@radix-ui/themes";
+import { Container } from "@radix-ui/themes";
 import { PropsWithChildren } from "react";
 import Header from "./header";
 

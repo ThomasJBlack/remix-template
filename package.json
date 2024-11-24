@@ -49,6 +49,6 @@
     "node": ">=18.0.0"
   },
   "lint-staged": {
-    "*.{ts,tsx,jsx,js,css,md,json,yml,yaml}": "prettier --write"
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
