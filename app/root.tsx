@@ -9,6 +9,9 @@ import {
 } from "@remix-run/react";
 import { json, type LoaderFunction } from "@remix-run/node";
 import "styles/index.css";
+import { Theme } from "@radix-ui/themes";
+import "@radix-ui/themes/styles.css";
+import { Layout } from "./components/layout/layout";
 
 export const loader: LoaderFunction = async () => {
   return json({ ok: true });
@@ -24,9 +27,13 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <Outlet />
-        <ScrollRestoration />
-        <Scripts />
+        <Theme>
+          <Layout>
+            <Outlet />
+          </Layout>
+          <ScrollRestoration />
+          <Scripts />
+        </Theme>
       </body>
     </html>
   );
