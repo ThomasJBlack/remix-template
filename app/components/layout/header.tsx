@@ -16,7 +16,7 @@ export default function Header() {
         <NavLink to="/b">B</NavLink>
       </Flex>
       <Flex gap="2" align="center">
-        <Link to="/info">Info</Link>
+        <Link to="/account">Account</Link>
       </Flex>
     </Flex>
   );
