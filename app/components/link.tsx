@@ -27,8 +27,10 @@ export function NavLink({ to, children }: RadixLinkProps & RemixNavLinkProps) {
       {({ isActive }) => (
         <RadixLink
           asChild
-          className={clsx("hover:underline", isActive && "")}
-          href="/a"
+          className={clsx(
+            "hover:bg-gray-200 active:bg-gray-400 rounded-xl px-3 py-1",
+            isActive && "bg-gray-200"
+          )}
         >
           <span>{children}</span>
         </RadixLink>
