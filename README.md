@@ -1,4 +1,4 @@
-# Welcome to the Remix Template!
+# Welcome to the Remix Template
 
 ## Development
 
@@ -14,9 +14,15 @@ Run
 npm run dev
 ```
 
-Local site: [http://localhost:5173](http://localhost:5173). Keyboard shortcut `o` + `enter` opens local site in browser.
+Local site: [http://localhost:3000](http://localhost:3000).
 
 ## Deployment
 
-Site can be deployed to Netlify via git / netlify integration on push.
-Simply configure netlify to watch git repo.
+Source Site deployed to [Netlify](https://app.netlify.com/sites/remix-app-template/overview)
+
+To deploy a new one, delete the `.netlify` folder and then run
+
+- `netlify build`
+- `nelify deploy`
+
+Optionally you can setup deployment to occur on push via the netlify integration with github and gitlab.
