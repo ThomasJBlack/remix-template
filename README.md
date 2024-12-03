@@ -18,7 +18,10 @@ Local site: [http://localhost:3000](http://localhost:3000).
 
 ## Deployment
 
-Source Site deployed to [Netlify](https://app.netlify.com/sites/remix-app-template/overview)
+Source Site deployed to Netlify
+
+- [Live Site](https://remix-app-template.netlify.app/)
+- [Netlify Dashboard](https://app.netlify.com/sites/remix-app-template/overview)
 
 To deploy a new one, delete the `.netlify` folder and then run
 
