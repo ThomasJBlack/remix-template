@@ -23,7 +23,7 @@ export function Layout({ children }: PropsWithChildren) {
             <Box mt="50px" p="4">
               <main>{children}</main>
             </Box>
-            <ThemePanel />
+            <ThemePanel defaultOpen={false} />
           </Box>
         </Container>
       </Flex>
